@@ -8,6 +8,13 @@
   <artifactId>maven-release-plugin</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <scm>
+    <url>https://github.com/muharrem-kursun/maven-release-plugin
+    </url>
+    <connection>scm:git:https://github.com/muharrem-kursun/maven-release-plugin.git</connection>
+    <tag>head</tag>
+  </scm>
+
   <name>maven-release-plugin</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -32,7 +39,6 @@
       <version>2.5.3</version>
       <type>maven-plugin</type>
     </dependency>
-
 
   </dependencies>
 
