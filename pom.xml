@@ -5,13 +5,13 @@
 
   <groupId>release</groupId>
   <artifactId>maven-release-plugin</artifactId>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
 
   <scm>
     <url>https://github.com/muharrem-kursun/maven-release-plugin
     </url>
     <connection>scm:git:https://github.com/muharrem-kursun/maven-release-plugin.git</connection>
-    <tag>maven-release-plugin-2</tag>
+    <tag>head</tag>
   </scm>
 
   <name>maven-release-plugin</name>
