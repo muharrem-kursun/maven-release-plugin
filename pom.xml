@@ -49,12 +49,12 @@
           <version>3.0.2</version>
         </plugin>
 
+
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.3</version>
           <configuration>
-            <tag>head</tag>
+            <goals>install</goals>
             <autoVersionSubmodules>true</autoVersionSubmodules>
           </configuration>
         </plugin>
